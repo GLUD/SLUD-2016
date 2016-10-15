@@ -11,13 +11,6 @@
       {url: '#hackathon', text: 'Hackathon'},
     ];
   })
-  .controller('Hackathon', ['$http' , function Hackathon($http){
-    // Obtener los expositores del API
-    $http.get('https://goo.gl/forms/r89qOijGkQuRJBCN2')
-      .success(data => {
-        this.lista = data;
-      })
-  }])
   .controller('Expositores', ['$http' , function Expositores($http){
     // Obtener los expositores del API
     $http.get('https://slud.pythonanywhere.com/api/speakers/')
