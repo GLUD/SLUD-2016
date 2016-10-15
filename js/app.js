@@ -8,7 +8,7 @@
       {url: '#agenda', text: 'Agenda'},
       {url: '#ubicacion', text: 'Ubicación'},
       {url: '#patrocinadores', text: 'Patrocinadores'},
-      {url: '#hackathon', text: 'Hackathon'},
+      {url: 'https://goo.gl/forms/wmGOuYSPulXCCXGJ2', text: 'Hackathon'},
     ];
   })
   .controller('Expositores', ['$http' , function Expositores($http){
