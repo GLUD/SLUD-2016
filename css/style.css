@@ -49,6 +49,27 @@ body {
     font-family: 'Open Sans';
 }
 
+.header {
+  /*margin-top: 100px;*/
+  /*margin-bottom: 40px;*/
+  padding-top: 150px;
+}
+
+.seccion {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.header p{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.center-text {
+  text-align: center;
+  align-self: center;
+}
+
   .navbar {
     /*background: rgba(75, 91, 110, 0.8);*/
     background: rgba(4,94,151, 0.6);
@@ -249,11 +270,11 @@ body {
   padding: 20px 0px;
 }
 
-  .ubicacion .frame {
+  .frame {
     padding: 0px;
   }
 
-  .ubicacion .direccion {
+  .direccion {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -265,24 +286,24 @@ body {
     height: 300px;
   }
 
-  .ubicacion .direccion img {
+/*  .direccion img {
     display: none;
-  }
+  }*/
 
-  .ubicacion .direccion .universidad {
+  .direccion .universidad {
     font-size: 25px;
     font-weight: 800;
     margin-bottom: 5px;
     display: none;
   }
 
-  .ubicacion .direccion .facultad {
+  .direccion .facultad {
     font-size: 20px;
     font-weight: 400;
     display: block;
   }
 
-  .ubicacion .direccion .locacion {
+  .direccion .locacion {
     display: block;
   }
 

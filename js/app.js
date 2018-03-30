@@ -11,7 +11,7 @@
   })
   .controller('Menu', function MenuController(){
     this.lista = [
-      {url: '#inicio', text: 'Inicio'},
+      {url: '#descripcion', text: 'Inicio'},
       {url: '#expositores', text: 'Expositores'},
       {url: '#agenda', text: 'Agenda'},
       {url: '#ubicacion', text: 'Ubicación'},
@@ -24,6 +24,28 @@
     //   .success(data => {
     //     this.lista = data;
     //   })
+    this.lista = [
+      {
+        nombre: 'U. Distrital',
+        trabajo: 'La Distri',
+        foto: 'img/EscudoUD.png'
+      },
+      {
+        nombre: 'U. Distrital',
+        trabajo: 'La Distri',
+        foto: 'img/EscudoUD.png'
+      },
+      {
+        nombre: 'U. Distrital',
+        trabajo: 'La Distri',
+        foto: 'img/EscudoUD.png'
+      },
+      {
+        nombre: 'U. Distrital',
+        trabajo: 'La Distri',
+        foto: 'img/EscudoUD.png'
+      }
+    ]
   }])
   .controller('Agenda', ['$http', 'CONFIG', function Agenda($http, CONFIG){
     // Consultar las charlas del API
@@ -31,5 +53,18 @@
     //   .success(data => {
     //     this.dias = util.procesarCharlas(data);
     //   });
+    this.dias = [
+      {
+        header: 'Lunes 16',
+        charlas: [
+          {
+            hora: '14:00',
+            nombre: 'Hackeando Atom',
+            expositor: 'David Castelblanco',
+            lugar: 'Sabio Caldas'
+          }
+        ]
+      }
+    ]
   }]);
 })(window.angular);
