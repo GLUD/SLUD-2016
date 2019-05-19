@@ -87,10 +87,12 @@ body {
 
 .logo_slud {
   cursor: pointer;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
+  border-radius: 8%;
   margin: 100px 0px;
   width: 100%;
-  max-width: 300px;
+  /*max-width: 300px;*/
+  max-width: 50%;
 }
 
 .logo_slud:hover {
@@ -99,8 +101,9 @@ body {
 }
 
 .info {
-  background: url('../img/pattern_final.jpg') fixed;
-  background-color: #009c5a;
+  /*background: url('../img/pattern_final.jpg') fixed;*/
+  /*background-color: #009c5a;*/
+  background-color: #00BEB1;
   /*background-size: cover;
   padding: 60px 0px;
   height: auto;
@@ -242,7 +245,8 @@ body {
   }
   .agenda thead {
     /* background: rgba(4,94,151, 1); */
-    background: #009c5a;
+    /*background: #009c5a;*/
+    background-color: #00BEB1;
     color: white;
     font-size: 18px;
     padding: 10px 0px;
